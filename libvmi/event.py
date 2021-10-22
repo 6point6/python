@@ -4,7 +4,7 @@ from enum import Enum
 
 from _libvmi import ffi, lib
 
-EVENTS_VERSION = lib.VMI_EVENTS_VERSION
+EVENTS_VERSION = 8
 
 
 class EventType(Enum):
